@@ -1,1 +1,1 @@
-## Sandunguea - Landing Page escuela de baile en CDMX
+## Sandunguea - Escuela de baile en CDMX
