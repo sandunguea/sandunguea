@@ -1,0 +1,21 @@
+import { menuResponsive } from '../js/nav/responsive.js';
+import { whatsApp } from './whatsApp/whatsApp.js';
+import { menuSticky } from '../js/nav/menuSticky.js';
+import { autoPause } from './videos/autoPause.js';
+import { agendarClase } from './whatsApp/agendarClase.js';
+import { restringirCalendario } from './helpers/restringirCalendario.js';
+import { scrollTop } from './nav/scrollTop.js';
+import { scrollReveals } from './animations/scrollReveals.js';
+import { pauseAnimation, hideWhatsApp } from './whatsApp/ocultarWhatsApp.js';
+document.addEventListener('DOMContentLoaded', () => {
+    menuResponsive();
+    menuSticky();
+    whatsApp();
+    autoPause();
+    agendarClase();
+    restringirCalendario();
+    scrollTop();
+    scrollReveals();
+    hideWhatsApp();
+    pauseAnimation();
+});

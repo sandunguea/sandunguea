@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-avif": "^1.1.1",
+    "gulp-imagemin": "^9.2.0",
+    "gulp-webp": "^5.1.0"
+  }
+}
