@@ -23,8 +23,8 @@
     <meta property="og:title" content="Sandunguea | Escuela de Baile en Ciudad de México | Salsa, Bachata y Cumbia">
     <meta property="og:description" content="Aprende salsa, bachata y cumbia desde cero en Sandunguea. Disfruta un ambiente sin juicios, profesores con experiencia y una clase de prueba gratuita en Coyoacán, CDMX.">
     <meta property="og:url" content="https://sandunguea.com/">
-    <meta property="og:image" content="https://sandunguea.com/assets/img/seo/og-image.jpg">
-    <meta property="og:image:secure_url" content="https://sandunguea.com/assets/img/seo/og-image.jpg">
+    <meta property="og:image" content="https://sandunguea.com/assets/img/seo/og-image.png">
+    <meta property="og:image:secure_url" content="https://sandunguea.com/assets/img/seo/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:type" content="image/jpeg">
@@ -35,7 +35,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Sandunguea | Escuela de Baile en Ciudad de México">
     <meta name="twitter:description" content="Aprende salsa, bachata y cumbia desde cero en Sandunguea. Clase de prueba gratuita en Coyoacán, CDMX.">
-    <meta name="twitter:image" content="https://sandunguea.com/assets/img/seo/og-image.jpg">
+    <meta name="twitter:image" content="https://sandunguea.com/assets/img/seo/og-image.png">
 
 
     <!--
@@ -74,7 +74,7 @@
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Sandunguea",
-            "image": "https://sandunguea.com/assets/img/seo/og-image.jpg",
+            "image": "https://sandunguea.com/assets/img/seo/og-image.png",
             "logo": "https://sandunguea.com/assets/img/logoIcon.svg",
             "url": "https://sandunguea.com",
             "telephone": "+525648546082",
@@ -163,7 +163,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/l10n/es.js"></script>
-    <script src="/assets/js/app.js?v=1.0.1" type="module"></script>
+    <script src="/assets/js/app.js?v=1.0.2" type="module"></script>
 </body>
 
 </html>
