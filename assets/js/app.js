@@ -7,6 +7,9 @@ import { restringirCalendario } from './helpers/restringirCalendario.js';
 import { scrollTop } from './nav/scrollTop.js';
 import { scrollReveals } from './animations/scrollReveals.js';
 import { pauseAnimation, hideWhatsApp } from './whatsApp/ocultarWhatsApp.js';
+import { registrarEvento } from './analytics/analytics.js';
+import { eventos } from './analytics/eventos.js';
+
 document.addEventListener('DOMContentLoaded', () => {
     menuResponsive();
     menuSticky();
@@ -18,4 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     scrollReveals();
     hideWhatsApp();
     pauseAnimation();
+
+    //analitics
+    eventos();
 });

@@ -1,7 +1,7 @@
 <!-- WhatsApp Flotante  -->
 <div class="wa-wrapper">
   <div class="wa-container">
-    <a class="wa-float" href="#" target="_blank" aria-label="WhatsApp" id="wa-float" data-mensaje="Hola, vi tu página y me gustaría más información sobre las clases 😊">
+    <a class="wa-float" href="#" target="_blank" aria-label="WhatsApp" id="wa-float" data-mensaje="Hola, vi tu página y me gustaría más información sobre las clases 😊" data-event="click_whatsApp_flotante" data-category="conversion">
 
 
       <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

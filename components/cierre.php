@@ -21,7 +21,7 @@
         <div class="
          reveal reveal-delay-3
         ">
-            <a href="#agendar-clase" class="cierre-btn">
+            <a href="#agendar-clase" class="cierre-btn" data-event="click_cierreLanding_agendar"  data-category="comportamiento">
                 Agenda tu clase gratis
             </a>
         </div>

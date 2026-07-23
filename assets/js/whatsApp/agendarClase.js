@@ -1,5 +1,6 @@
 import { alertas } from "../helpers/mostrarAlertas.js";
 import { formatearFecha } from "../helpers/formatearFecha.js";
+import { registrarEvento } from "../analytics/analytics.js";
 
 const agendarClase = () => {
 
@@ -73,6 +74,8 @@ const agendarClase = () => {
         Ya casi listo. Envía tu mensaje en WhatsApp 💫
         `;
         window.open(url, '_blank');
+        //le pasa el evento a google analytics
+        registrarEvento("formulario_clase_enviado");
 
         agendarBtn.classList.add('enviado');
         agendarBtn.disabled = true;
@@ -88,6 +91,7 @@ const agendarClase = () => {
             agendarBtn.classList.remove('enviado');
             agendarBtn.disabled = false;
             agendarBtn.classList.remove('disabled');
+            formulario.reset();
         }, 4000);
     };
 
