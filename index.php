@@ -3,6 +3,20 @@
 
 <head>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q95TR8ZJXG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-Q95TR8ZJXG');
+    </script>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sandunguea | Escuela de Baile en Ciudad de México | Salsa, Bachata y Cumbia</title>
@@ -138,6 +152,8 @@
 
 </head>
 
+
+
 <body>
     <?php require_once __DIR__ . '/components/header.php' ?>
     <?php require_once __DIR__ . '/components/hero.php' ?>
@@ -163,7 +179,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/l10n/es.js"></script>
-    <script src="/assets/js/app.js?v=1.0.2" type="module"></script>
+    <script src="/assets/js/app.js?v=1.0.3" type="module"></script>
 </body>
 
 </html>
