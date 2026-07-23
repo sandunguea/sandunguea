@@ -2,5 +2,6 @@
 export const registrarEvento = (nombreEvento, parametros = {}) => {
     if (typeof gtag === "function") {
         gtag("event", nombreEvento, parametros);
+        console.log("Formulario enviado a analytics");
     }
 }
