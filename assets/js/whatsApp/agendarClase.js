@@ -73,9 +73,12 @@ const agendarClase = () => {
         agendarBtn.innerHTML = `
         Ya casi listo. Envía tu mensaje en WhatsApp 💫
         `;
-        window.open(url, '_blank');
-        //le pasa el evento a google analytics
-        registrarEvento("formulario_clase_enviado");
+        //envia a analytics, de ahi abre en ventana nueva
+        registrarEvento(
+            "formulario_clase_enviado",
+            {},
+            () => window.open(url, "_blank")
+        );
 
         agendarBtn.classList.add('enviado');
         agendarBtn.disabled = true;
