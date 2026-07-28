@@ -41,7 +41,7 @@
                     </div>
                     <div class="">
                         <label for="nombre">Tu nombre</label>
-                        <input type="text" id="nombre" placeholder="Ej. Evelin Santos">
+                        <input type="text" id="nombre" placeholder="Ej. Diana López">
                     </div>
 
                     <div class="fecha">
