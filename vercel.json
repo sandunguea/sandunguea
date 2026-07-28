@@ -9,7 +9,7 @@
             "src": "/assets/webFonts/MoonTimeRegular/(.*)",
             "dest": "/assets/webFonts/MoonTimeRegular/$1"
         },
-             {
+        {
             "src": "/assets/videos/(.*)",
             "dest": "/assets/videos/$1"
         },
@@ -28,6 +28,14 @@
         {
             "src": "/components/(.*)",
             "dest": "/components/$1"
+        },
+        {
+            "src": "/sitemap.xml",
+            "dest": "/sitemap.xml"
+        },
+        {
+            "src": "/robots.txt",
+            "dest": "/robots.txt"
         },
         {
             "src": "/(.*)",
