@@ -44,6 +44,12 @@
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:alt" content="Sandunguea - Escuela de Baile en Ciudad de México">
 
+    <!-- icons -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
@@ -179,7 +185,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/l10n/es.js"></script>
-    <script src="/assets/js/app.js?v=1.0" type="module"></script>
+    <script src="/assets/js/app.js?v=1.0.1" type="module"></script>
 </body>
 
 </html>

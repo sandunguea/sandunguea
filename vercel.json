@@ -38,6 +38,22 @@
             "dest": "/robots.txt"
         },
         {
+            "src": "/favicon.ico",
+            "dest": "/favicon.ico"
+        },
+        {
+            "src": "/favicon-32x32.png",
+            "dest": "/favicon-32x32.png"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "dest": "/apple-touch-icon.png"
+        },
+        {
+            "src": "/site.webmanifest",
+            "dest": "/site.webmanifest"
+        },
+        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }

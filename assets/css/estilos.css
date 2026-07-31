@@ -3421,6 +3421,10 @@ img {
 
     font-weight: 600;
 }
+.datos-card .calificacion{
+    max-width: 10rem;
+    margin-bottom: .4rem;
+}
 
 /**********************************
              TABLET

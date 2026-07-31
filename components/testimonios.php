@@ -27,6 +27,7 @@
                     </div>
 
                     <div class="datos-card">
+                        <img src="/assets/img/testimonios/estrellas.webp" alt="imagen-estrellas" class="calificacion">
                         <h4>Rox</h4>
                         <p>Alumna de Cumbia</p>
                     </div>
@@ -47,6 +48,7 @@
                     </div>
 
                     <div class="datos-card">
+                        <img src="/assets/img/testimonios/estrellas.webp" alt="imagen-estrellas" class="calificacion">
                         <h4>Ernesto y Pily</h4>
                         <p>Pareja y alumnos de Cumbia</p>
                     </div>
@@ -69,6 +71,7 @@
                     </div>
 
                     <div class="datos-card">
+                        <img src="/assets/img/testimonios/estrellas.webp" alt="imagen-estrellas" class="calificacion">
                         <h4>Liz</h4>
                         <p>Alumna de Cumbia</p>
                     </div>
